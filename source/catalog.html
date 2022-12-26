@@ -4,12 +4,14 @@
 <head>
   <meta charset="utf-8">
   <title>Кэт энерджи</title>
+  <link rel="stylesheet" href="./css/style.css">
+
 </head>
 
 <body class="page__body">
   <header class="main-header">
     <a href="index.html" class="main-header__logo">
-      <img class="main-header__logo-image" src="../source/img/mobile/logo-mobile.svg" width="33" height="38"
+      <img class="main-header__logo-image" src="../source/img/mobile/logo-3.svg" width="101" height="18"
         alt="Кэт Энерджи">
     </a>
     <nav class="main-nav">
@@ -33,7 +35,7 @@
   </header>
 
   <main class="main-container">
-    <h1 class="main-title">Каталог продукции</h1>
+    <h1 class="main-catalog-title">Каталог продукции</h1>
     <section class="catalog">
       <h2 class="visually-hidden">Каталог основной продукции</h2>
       <div class="catalog__wrapper">
@@ -173,45 +175,48 @@
         <div class="catalog__more more">
           <h3 class="more__title">Показать еще 100500 товаров</h3>
           <p class="more__remark">На самом деле вкусов гораздо больше!</p>
-          <button class="more__button" onclick="">показать все</button>
+          <button class="more__button" type="button">показать все</button>
         </div>
-        <ul class="catalog__additionally-products additionally-products">
-          <li class="additionally-products__item">
-            <h3 class="additionally-products__title">Сахарозаменитель</h3>
-            <dl class="additionally-products__list">
-              <dt class="additionally-products__quantity">1 упаковка (100 г)</dt>
-              <dd class="additionally-products__price">200 ₽</dd>
-            </dl>
-            <a href="#" class="additionally-products__link">заказать</a>
-          </li>
+        <div class="catalog__additionally-products additionally-products">
+          <h2 class="additionally-products__main-title">Дополнительные товары</h2>
+          <ul class="additionally-products_scroll">
+            <li class="additionally-products__item">
+              <h3 class="additionally-products__title">Сахарозаменитель</h3>
+              <dl class="additionally-products__list">
+                <dt class="additionally-products__quantity">1 упаковка (100 г)</dt>
+                <dd class="additionally-products__price">200 ₽</dd>
+              </dl>
+              <a href="#" class="additionally-products__link">заказать</a>
+            </li>
 
-          <li class="additionally-products__item">
-            <h3 class="additionally-products__title">питьевая вода</h3>
-            <dl class="additionally-products__list">
-              <dt class="additionally-products__quantity">5 литров</dt>
-              <dd class="additionally-products__price">50 ₽</dd>
-            </dl>
-            <a href="#" class="additionally-products__link">заказать</a>
-          </li>
+            <li class="additionally-products__item">
+              <h3 class="additionally-products__title">питьевая вода</h3>
+              <dl class="additionally-products__list">
+                <dt class="additionally-products__quantity">5 литров</dt>
+                <dd class="additionally-products__price">50 ₽</dd>
+              </dl>
+              <a href="#" class="additionally-products__link">заказать</a>
+            </li>
 
-          <li class="additionally-products__item">
-            <h3 class="additionally-products__title">молоко</h3>
-            <dl class="additionally-products-list">
-              <dt class="additionally-products__quantity">1 литр</dt>
-              <dd class="additionally-products__price">100 ₽</dd>
-            </dl>
-            <a href="#" class="additionally-products__link">заказать</a>
-          </li>
+            <li class="additionally-products__item">
+              <h3 class="additionally-products__title">молоко</h3>
+              <dl class="additionally-products__list">
+                <dt class="additionally-products__quantity">1 литр</dt>
+                <dd class="additionally-products__price">100 ₽</dd>
+              </dl>
+              <a href="#" class="additionally-products__link">заказать</a>
+            </li>
 
-          <li class="additionally-products__item">
-            <h3 class="additionally-products__title">витамины</h3>
-            <dl class="additionally-products-list">
-              <dt class="additionally-products__quantity">1 упаковка (30 г)</dt>
-              <dd class="additionally-products__price">300 ₽</dd>
-            </dl>
-            <a href="#" class="additionally-products__link">заказать</a>
-          </li>
-        </ul>
+            <li class="additionally-products__item">
+              <h3 class="additionally-products__title">витамины</h3>
+              <dl class="additionally-products__list">
+                <dt class="additionally-products__quantity">1 упаковка (30 г)</dt>
+                <dd class="additionally-products__price">300 ₽</dd>
+              </dl>
+              <a href="#" class="additionally-products__link">заказать</a>
+            </li>
+          </ul>
+        </div>
         <div class="catalog__present present">
           <p class="present__description">Закажите все и получите чехол для кота в подарок!</p>
         </div>
@@ -230,25 +235,25 @@
         <a href="index.html" class="deep-footer__home-link">
           <img src="../source/img/mobile/footer-logo-2.svg" alt="Логотип 'Кэт энерджи' " class="deep-footer__logo">
         </a>
-        <ul class="deep-footer__social-network social-network">
-          <li class="social-network__item">
-            <a href="https://vk.com/htmlacademy" class="social-network__link">
+        <ul class="deep-footer__social-network-list social-network-list">
+          <li class="social-network-item">
+            <a href="https://vk.com/htmlacademy" class="social-network-link">
               <span class="visually-hidden">Vkontakte</span>
             </a>
           </li>
-          <li class="social-network__item">
-            <a href="https://www.youtube.com/user/htmlacademyru" class="social-network__link">
+          <li class="social-network-item">
+            <a href="https://www.youtube.com/user/htmlacademyru" class="social-network-link">
               <span class="visually-hidden">You tube</span>
             </a>
           </li>
-          <li class="social-network__item">
-            <a href="https://t.me/htmlacademy" class="social-network__link">
+          <li class="social-network-item">
+            <a href="https://t.me/htmlacademy" class="social-network-link">
               <span class="visually-hidden">Telegram</span>
             </a>
           </li>
         </ul>
-        <a class="deep-footer__site-developer-name-link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
-        <a class="deep-footer__site-developer-logo-link" href="https://htmlacademy.ru/intensive/adaptive">
+        <a class="deep-footer__site-developer-link" href="https://htmlacademy.ru/intensive/adaptive">
+          <span class="deep-footer__site-developer-name">HTML Academy</span>
           <img src="../source/img/mobile/html-academy.svg" alt="Логотип HTML Academy "
             class="deep-footer__site-developer-logo" width="27" height="34">
         </a>
@@ -256,4 +261,5 @@
     </div>
   </footer>
 </body>
+
 </html>

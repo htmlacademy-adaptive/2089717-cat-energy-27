@@ -1,0 +1,33 @@
+.main-nav {
+  background-color: #ffffff;
+  display: none;
+}
+
+
+.main-nav__link {
+  font-family: "Oswald", "sans-serif";
+  color: #000000;
+  font-style: medium;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 400;
+  text-align: left;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.main-nav__toggle {
+  border: none;
+  background-color: #ffffff;
+  background-image: url("/source/img/Mobile/popower-exit.svg");
+}
+
+.main-nav__wrapper {
+  margin: 0 auto;
+}
+
+.main-nav__list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}

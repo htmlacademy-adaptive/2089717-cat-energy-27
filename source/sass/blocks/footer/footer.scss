@@ -1,0 +1,41 @@
+.footer {
+
+}
+
+.footer__wrapper {
+  margin: 0 auto;
+}
+
+.footer__text-container {
+  background-color: #ffffff;
+  &--form {
+    background-color: #f2f2f2;
+  }
+  &--catalog {
+    background-color: #f2f2f2;
+  }
+}
+
+.footer__slogan {
+  font-family: "Oswald", "sans-serif";
+  color: #000000;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  text-align: left;
+  text-transform: uppercase;
+}
+.footer__text {
+  font-family: "lato", "sans-serif";
+  color: #444444;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  text-align: left;
+  text-transform: none;
+}
+
+.footer__deep-footer {
+}
