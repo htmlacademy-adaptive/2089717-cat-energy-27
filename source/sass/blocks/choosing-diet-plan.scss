@@ -1,11 +1,11 @@
 .choosing-diet-plan__item {
-  background-color: #f2f2f2;
+  background-color: $lightgrey;
   list-style-type: none;
 }
 
 .choosing-diet-plan__title {
   font-family: "Oswald", "sans-serif";
-  color: #000000;
+  color: $black0;
   font-style: normal;
   font-size: 24px;
   line-height: 37px;
@@ -16,7 +16,7 @@
 
 .choosing-diet-plan__description {
   font-family: "lato", "sans-serif";
-  color: #444444;
+  color: $black4;
   font-style: normal;
   font-size: 14px;
   line-height: 18px;
@@ -27,7 +27,7 @@
 
 .choosing-diet-plan__link {
   font-family: "Oswald", "sans-serif";
-  color: #000000;
+  color: $black0;
   font-style: normal;
   font-size: 16px;
   line-height: 16px;

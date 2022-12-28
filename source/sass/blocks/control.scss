@@ -6,12 +6,13 @@
   padding: 0;
   list-style-type: none;
 }
+
 .control__list-item {
 }
 
 .control__label {
   font-family: "Oswald", "sans-serif";
-  color: #000000;
+  color: $black0;
   font-style: normal;
   font-size: 16px;
   line-height: 18px;
@@ -19,5 +20,6 @@
   text-align: center;
   text-transform: uppercase;
 }
+
 .control__input {
 }

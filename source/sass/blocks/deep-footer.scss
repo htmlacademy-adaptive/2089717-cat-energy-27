@@ -2,11 +2,12 @@
 }
 
 .deep-footer {
-  background-color: #f2f2f2;
+  background-color: $lightgrey;
 }
 
 .deep-footer__logo {
 }
+
 .deep-footer__social-network-list {
 }
 
@@ -16,7 +17,7 @@
 
 .deep-footer__site-developer-name {
   font-family: "lato", "sans-serif";
-  color: #444444;
+  color: $black4;
   font-style: normal;
   font-size: 16px;
   line-height: 19px;
@@ -24,5 +25,6 @@
   text-align: left;
   text-transform: none;
 }
+
 .deep-footer__site-developer-logo {
 }

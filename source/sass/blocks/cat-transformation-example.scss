@@ -4,9 +4,10 @@
 .cat-transformation-example__wrapper {
   margin: 0 auto;
 }
+
 .cat-transformation-example__title {
   font-family: "Oswald", "sans-serif";
-  color: #000000;
+  color: $black0;
   font-style: normal;
   font-size: 36px;
   line-height: 40px;
@@ -16,7 +17,7 @@
 
 .cat-transformation-example__description {
   font-family: "lato", "sans-serif";
-  color: #444444;
+  color: $black4;
   font-style: normal;
   font-size: 14px;
   line-height: 18px;
@@ -27,7 +28,7 @@
 
 .results-animal-using-cat-energy-products__attribute {
   font-family: "Oswald", "sans-serif";
-  color: #000000;
+  color: $black0;
   font-style: normal;
   font-size: 24px;
   line-height: 24px;
@@ -35,9 +36,10 @@
   text-align: center;
   text-transform: none;
 }
+
 .results-animal-using-cat-energy-products__description {
   font-family: "lato", "sans-serif";
-  color: #444444;
+  color: $black4;
   font-style: normal;
   font-size: 12px;
   line-height: 12px;
@@ -48,7 +50,7 @@
 
 .cat-transformation-example__cost {
   font-family: "Oswald", "sans-serif";
-  color: #000000;
+  color: $black0;
   font-style: normal;
   font-size: 14px;
   line-height: 20px;
@@ -56,5 +58,3 @@
   text-align: center;
   text-transform: none;
 }
-
-

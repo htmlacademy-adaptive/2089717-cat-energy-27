@@ -4,9 +4,9 @@
 .functional-food__header {
   padding: 27px 36px 164px 35px;
   background-image:
-  linear-gradient(
-      rgba(104, 183, 56, 0.85) 0%,
-      rgba(104, 183, 56, 0.85) 100%
+    linear-gradient(
+      $transparentgreen 0%,
+      $transparentgreen 100%
     ),
     url("../img/mobile/background-image-1.png");
   background-size: 320px 302px;
@@ -16,7 +16,7 @@
 
 .functional-food__title {
   font-family: "Oswald", "sans-serif";
-  color: #ffffff;
+  color: $white;
   font-style: normal;
   font-size: 36px;
   line-height: 36px;
@@ -27,7 +27,7 @@
 
 .functional-food__slogan {
   font-family: "Oswald", "sans-serif";
-  color: #ffffff;
+  color: $white;
   font-style: normal;
   font-size: 14px;
   line-height: 14px;
@@ -38,7 +38,7 @@
 
 .functional-food__link {
   font-family: "Oswald", "sans-serif";
-  color: #ffffff;
+  color: $white;
   font-style: normal;
   font-size: 14px;
   line-height: 18px;

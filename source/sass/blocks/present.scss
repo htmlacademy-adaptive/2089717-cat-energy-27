@@ -1,7 +1,7 @@
 .present {
   background-image: linear-gradient(
-      rgba(104, 183, 56, 0.85) 0%,
-      rgba(104, 183, 56, 0.85) 100%
+      $transparentgreen 0%,
+      $transparentgreen 100%
     ),
     url("../img/mobile/catalog/present.png");
   background-size: 280px 290px;
@@ -12,7 +12,7 @@
 
 .present__description {
   font-family: "lato", "sans-serif";
-  color: #ffffff;
+  color: $white;
   font-style: normal;
   font-size: 16px;
   line-height: 20px;

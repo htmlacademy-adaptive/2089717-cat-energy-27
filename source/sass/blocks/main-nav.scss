@@ -1,11 +1,10 @@
 .main-nav {
-  background-color: #ffffff;
+  background-color: $white;
 }
-
 
 .main-nav__link {
   font-family: "Oswald", "sans-serif";
-  color: #000000;
+  color: $black0;
   font-style: medium;
   font-size: 20px;
   line-height: 20px;
@@ -17,7 +16,7 @@
 
 .main-nav__toggle {
   border: none;
-  background-color: #ffffff;
+  background-color: $white;
   background-image: url("/source/img/Mobile/popower-exit.svg");
 }
 
