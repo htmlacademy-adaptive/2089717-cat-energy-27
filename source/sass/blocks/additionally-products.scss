@@ -1,0 +1,70 @@
+.additionally-products {
+}
+
+.additionally-products__main-title {
+  font-family: "Oswald", "sans-serif";
+  color: $black0;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.additionally-products__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.additionally-products__item {
+}
+
+.additionally-products__title {
+  font-family: "Oswald", "sans-serif";
+  color: $black2;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.additionally-products__definition-list {
+}
+
+.additionally-products__quantity {
+  font-family: "lato", "sans-serif";
+  color: $black4;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.additionally-products__price {
+  font-family: "lato", "sans-serif";
+  color: $black4;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 400;
+  text-align: right;
+}
+
+.additionally-products__link {
+  font-family: "Oswald", "sans-serif";
+  color: $white;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: $green;
+  border: none;
+  padding: 10px 109px;
+}

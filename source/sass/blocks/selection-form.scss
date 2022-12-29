@@ -1,0 +1,49 @@
+.selection-form {
+}
+
+.selection-form__group {
+  border: none;
+  border-bottom: 1px solid $boldgrey;
+}
+
+.selection-form__about-list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.selection-form__radio-list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.selection-form__group-title {
+  font-family: "Oswald", "sans-serif";
+  color: $black0;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 26px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.selection-form__contact-list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.selection-form__activation-button {
+  font-family: "Oswald", "sans-serif";
+  color: $white;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: $green;
+  border: none;
+  padding: 7px 44px;
+}

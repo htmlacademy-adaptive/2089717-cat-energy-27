@@ -1,0 +1,37 @@
+.more {
+}
+
+.more__title {
+  font-family: "Oswald", "sans-serif";
+  color: $black1;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.more__remark {
+  font-family: "lato", "sans-serif";
+  color: $black4;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.more__button {
+  font-family: "Oswald", "sans-serif";
+  color: $black4;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+  border: none;
+  background-color: #f2f2f2;
+  padding: 10px 94px;
+}

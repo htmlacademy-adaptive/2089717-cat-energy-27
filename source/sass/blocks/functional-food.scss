@@ -1,0 +1,54 @@
+.functional-food {
+}
+
+.functional-food__header {
+  padding: 27px 36px 164px 35px;
+  background-image:
+    linear-gradient(
+      $transparentgreen 0%,
+      $transparentgreen 100%
+    ),
+    url("../img/mobile/background-image-1.png");
+  background-size: 320px 302px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.functional-food__title {
+  font-family: "Oswald", "sans-serif";
+  color: $white;
+  font-style: normal;
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 400;
+  text-align: center;
+  z-index: 2;
+}
+
+.functional-food__slogan {
+  font-family: "Oswald", "sans-serif";
+  color: $white;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.functional-food__link {
+  font-family: "Oswald", "sans-serif";
+  color: $white;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 7px 44px;
+}
+
+.functional-food__choosing-diet-plan {
+  margin: 20px;
+}
